@@ -1,12 +1,12 @@
 [package]
-name = "prismaroute"
+name = "prismarouter"
 version = "0.1.0"
 authors = ["Taira <tairabiteru@users.noreply.github.com>"]
 edition = "2018"
 
-[[bin]] 
+[[bin]]
 name = "prismarouter"
-path = "src/main.rs"
+path = "src/rs/main.rs"
 
 [dependencies]
 serde = { version = "1.0.104", features = ["derive"] }
